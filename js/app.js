@@ -61,7 +61,7 @@ const showErrorDetected = (error) => {
 //* Capturo la data de la API junto con su apiKey en un Then
 const getAPIClima = (ciudad, pais) => {
 
-	const appID = 'd16761427c6b58805bbc393d57704d98';
+	const appID = 'YOUR API KEY';
 	const URL = `https://api.openweathermap.org/data/2.5/weather?q=${ciudad},${pais}&appid=${appID}`;
 
 	console.log({URL});
